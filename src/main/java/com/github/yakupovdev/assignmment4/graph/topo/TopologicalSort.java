@@ -5,9 +5,8 @@ import com.github.yakupovdev.assignmment4.graph.Metrics;
 import java.util.*;
 
 /**
- * TopologicalSort provides two ways to obtain a topological order:
+ * TopologicalSort provides way to obtain a topological order:
  * - Kahn's algorithm (kahnSort)
- * - DFS-based ordering (dfsSort)
  */
 public class TopologicalSort {
     private final Graph graph;
